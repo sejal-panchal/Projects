@@ -1,0 +1,21 @@
+{
+  "name": "Client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vasant Raj",
+  "dependencies": {
+    "graphql.js": "^0.4.20",
+    "jquery": "^3.4.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "parcel": "^1.12.3"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Welcome to Weather Board Data!
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="WeatherBoard.css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./bundle.js"></script>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="item1">
+		<h2 align="center">Weather Board</h2>
+		</div>
+  		<div class="item2">
+		<!--	  List of provinces-->
+  			<ul style="list-style: none;"><li>Select Provinces</li></ul>
+			<ul id='ulprovinceList' style="list-style: none;">
+				<li onclick="" id='AB'><a href="#">Alberta</a></li>
+				<li id='BC'><a href="#">British Columbia</a></li>
+				<li id='MB'><a href="#">Manitoba</a></li>
+				<li id='NB'><a href="#">New Brunswick</a></li>
+				<li id='NL'><a href="#">Newfoundland and Labrador</a></li>
+				<li id='NS'><a href="#">Nova Scotia</a></li>
+				<li id='ON'><a href="#">Ontario</a></li>
+				<li id='PE'><a href="#">Prince Edward Island</a></li>
+				<li id='QC'><a href="#">Quebec</a></li>
+				<li id='SK'><a href="#">Saskatchewan</a></li>
+				<li id='NT'><a href="#">Northwest Territories</a></li>
+				<li id='NU'><a href="#">Nunavut</a></li>
+				<li id='YT'><a href="#">Yukon</a></li>
+			</ul>
+  		</div>
+
+  		<div class="item3">Station Details:
+			<select id="ddlStation" style="width: 350px;">
+					<option value="10">--select option--</option>
+			</select>
+
+			<div class="station_div">
+
+				Name:<label id="lblName"></label><br>
+				Station:<label  id="lblStation" ></label><br>
+				Latitude:<label  id="lblLatitude" ></label><br>
+				Longitude:<label  id="lblLongitude" ></label>
+				<div id=googlemap_div><p></p></div>
+
+			</div>
+
+			<div id="barChart_div" style="width:75%;height:400px;"></div><br>
+			<div id="lineChart_div" style="width:75%;height:400px;"></div>
+  		</div>
+  
+  		<div class="item5"><p align="center"></p>
+					<label id="errData"></label>
+  		</div>
+	</div>
+</body>
+</html>
