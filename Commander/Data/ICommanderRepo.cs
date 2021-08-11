@@ -3,9 +3,14 @@ using Commander.Models;
 
 namespace Commander.Data
 {
-        public interface ICommanderRepo
-        {   
-                IEnumerable<Command> GetAppCommands();
-                Command GetCommand(int Id);
-        }
+    public interface ICommanderRepo
+    {
+        bool SaveChanges();
+        IEnumerable<Command> GetAllCommands();
+        Command GetCommandByID(int id);
+        void CreateCommand(Command cmd);
+        void UpdateCommand(Command cmd);
+
+        void DeleteCommand(Command cmd);
+    }
 }

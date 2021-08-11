@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sejalpanchal/Documents/git-projects/Commander/Commander.csproj": {}
+    "/Users/sejalpanchal/Projects/Commander/Commander.csproj": {}
   },
   "projects": {
-    "/Users/sejalpanchal/Documents/git-projects/Commander/Commander.csproj": {
+    "/Users/sejalpanchal/Projects/Commander/Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sejalpanchal/Documents/git-projects/Commander/Commander.csproj",
+        "projectUniqueName": "/Users/sejalpanchal/Projects/Commander/Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "/Users/sejalpanchal/Documents/git-projects/Commander/Commander.csproj",
+        "projectPath": "/Users/sejalpanchal/Projects/Commander/Commander.csproj",
         "packagesPath": "/Users/sejalpanchal/.nuget/packages/",
-        "outputPath": "/Users/sejalpanchal/Documents/git-projects/Commander/obj/",
+        "outputPath": "/Users/sejalpanchal/Projects/Commander/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sejalpanchal/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,36 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
