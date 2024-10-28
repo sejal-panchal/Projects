@@ -14,6 +14,6 @@ promise==2.0.2
 pyodbc==4.0.26
 singledispatch==3.4.0.3
 six==1.10.0
-SQLAlchemy==1.1.11
+SQLAlchemy==1.2.19
 typing==3.6.1
 Werkzeug==0.12.2
